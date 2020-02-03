@@ -5,7 +5,8 @@ global: {}
 
 replicaCount: 1
 
-apiHost: ""
+#apiHost: ""
+apiHost: "inventory-management-bff-jb:80"
 
 image:
   repository: replace
