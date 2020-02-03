@@ -23,6 +23,8 @@ const Fade20 = () => (
 );
 
 class UIShell extends Component {
+
+  /*
   header = "Garage for Cloud Catalyst";
   menuTitle = "12 Design Pattern";
   menuItems = [
@@ -40,6 +42,13 @@ class UIShell extends Component {
     "Search List",
     "Search Form"
   ];
+  */
+
+  header = "Big Blue Widgets";
+  menuTitle = "Inventory Management";
+  menuItems = [
+    "Stock Items"
+ ];
 
   constructor(props) {
     super(props);
